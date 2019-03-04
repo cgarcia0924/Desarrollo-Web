@@ -1,0 +1,32 @@
+Etiquetas para las notas con menos énfasis
+etiqueta <Small> </Small>
+
+<p> <Small> </Small> </p>
+
+
+la clas lead cambia el tamaño del texto, 
+
+se debe definir la clase en el parrafo
+<p class="lead"> palabras del pàrrafo </p>
+
+se debe definir la clase en el parrafo
+<p class="lead text-center"> alienación del texto </p>
+<p class="lead text-left"> alienación del texto </p>
+<p class="lead text-rigth"> alienación del texto </p>
+<p class="lead text-justify"> alienación del texto </p>
+
+La etiqueta abbr permite darle otra presentación al texto. por ejemplo abreviar palabras
+<abbr title="Señor"> Sr. </abbr>
+
+el cursor sobre la abreviatura muestra simbolo interrogación
+
+Otra transformación
+<p class="text-uppercase"> texto en mayuscula</p>
+<p class="text-lowercase"> Texto en minuscula</p>
+<p class="text-capitalize"> texto inicia en mayuscula</p>
+
+<mark> Resalta el texto </mark>
+
+<code> resalta las lineas de código </code>
+<kbd> marca teclas de acceso  ctrl + c</kbd>
+

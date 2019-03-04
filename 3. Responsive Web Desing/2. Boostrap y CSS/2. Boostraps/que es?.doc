@@ -1,0 +1,14 @@
+
+¿Qué es Bootstrap?
+1. Definición
+Bootstrap es un framework, es decir, un conjunto de librerías CSS creado por Twitter para facilitarnos y estandarizar los desarrollos de aplicaciones web. Este framework trae bastantes componentes en su interior que nos permitirán mejorar la presentación del cuerpo, formularios, botones, barras de navegación, entre otros. Su gran particularidad es que ofrece un diseño adaptativo para múltiples plataformas. Otra de las integraciones que tiene el Framework Bootstrap aparte del manejo de CSS es la integración de Javascript, el cual estudiaremos más adelante.
+
+
+2. Ventajas
+Maneja el modelo multiplataforma con diseño responsive.
+Puede ser codificado en 1 o 2 días de arduo trabajo, en solo minutos o en pocas horas. Es decir, permite que optimicemos nuestro tiempo.
+Supongamos que estamos ante un cliente con un diseño web y a última hora quiere modificar la estructura inicial, básicamente nos tocaría cambiar toda la estructura del sitio lo que nos tomaría varias horas de trabajo, mientras que con este framework lo podemos hacer ante sus ojos casi de inmediato y sin muchas complicaciones.
+Cuando desarrollamos un sitio web, debemos pensar no solo en los dispositivos que accederán al sitio sino también en los diferentes navegadores que existen, y crear entonces reglas para cada navegador, lo cual consumirá mucho tiempo de desarrollo; usando Bootstrap, nuestro sitio siempre se verá igual en todos los navegadores que sean usados y esta será una preocupación menos a tener en cuenta.
+El framework Bootstrap maneja la filosofía mobile first, la cual ayuda a desarrollar sitios inicialmente para las plataformas móviles y para luego hacerlos extensibles a tablets y pantallas de gran formato.
+3. ¿Dónde y cómo lo obtengo?
+Solo debes ingresar a la página oficial de Bootstrap http://getbootstrap.com/ allí puedes descargarlo e incluso ver algunos ejemplos de sitios que integran este framework en sus sitios web.

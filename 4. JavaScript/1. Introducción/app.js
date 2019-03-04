@@ -1,0 +1,1 @@
+document.write("Hola Camilo, este Texto es escrito desde JavaScript")

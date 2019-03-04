@@ -1,0 +1,11 @@
+Usa dos puntos de corte 600px de ancho y luego 900px de ancho.
+Oculta el div #resumen con display:none;.
+Crea una regla con media query para mostrar el div de resumen al tener mas de 600px de ancho.
+@media (min-width: 600px) {
+#resumen{
+display: block;
+}
+}
+Agrega una regla usando media queries para que cuando se tenga más de 600px de ancho se coloque el tamaño de letra a 16px y color rojo.
+Agrega una regla usando media queries para que cuando se tenga más de 900px de ancho se coloque el tamaño de letra a 14px y color negro.
+Observa como cambian de acuerdo a los distintos tamaños.

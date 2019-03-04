@@ -1,0 +1,55 @@
+Instrucciones
+Crea una animación para la primera imagen y cambia el borde usando las siguientes instrucciones:
+@keyframes
+imagen1-animacion {
+from {
+border: 1px solid black;
+}
+to {
+border: 4px solid white;
+}
+}
+
+#imagen1 img {
+border: 4px solid white;
+animation-name: imagen1-animacion;
+animation-duration: 2s;
+}
+Crea una animación de movimiento para la segunda imagen.
+@keyframes imagen2-animacion {
+0% {
+position: relative;
+left: 0px
+}
+50% {
+position: relative;
+left: 500px;
+}
+100% {
+position: relative;
+left: 0px;
+}
+}
+
+#imagen2 img{
+animation-name: imagen2-animacion;
+animation-duration: 2s;
+-webkit-animation-delay: 1s;
+-moz-animation-delay: 1s;
+-o-animation-delay: 1s;
+animation-delay: 1s;
+}
+Crea una animación de transición, que al colocar el mouse encima de ella, cambie el color de fondo de la tercera imagen.
+#imagen3 {
+background: black;
+transition-property: background;
+transition-duration: 1s;
+transition-timing-function:
+linear;}
+#imagen3:hover {
+background: white;
+}
+Buenas Prácticas
+Agrupa los css de un mismo elemento en el archivo css, es decir que las etiquetas relacionadas esten cerca.
+Los porcentajes pequeños pueden no verse bien en dispositivos móviles.
+Es una tendencia diseñar primero para dispositivos pequeños y luego ir incrementando.

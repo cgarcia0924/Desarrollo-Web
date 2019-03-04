@@ -1,0 +1,32 @@
+Instrucciones
+Crea el estilo para móviles agregando.
+.c1, .c2, .c3, .c4, .c5 {
+width: 100%;
+}
+Crea el estilo para tabletas juntando las cajas c2 hasta c5 ocupando 50%.
+@media (min-width: 600px) {
+.c2, .c3, .c4, .c5 {
+width: 50%;
+}
+}.
+Crea el estilo para desktop colocando c1 al 100%, c2 al 100% y el resto a 33%
+@media (min-width: 800px) {
+.c1 {
+width: 100%;
+}
+
+.c2 {
+width: 100%;
+}
+
+.c3, .c4, .c5 {
+width: 33.33%;
+}
+
+.container {
+width: 800px;
+margin-left: auto;
+margin-right: auto;
+}
+}
+Observa como cambian de acuerdo a los distintos tamaños.

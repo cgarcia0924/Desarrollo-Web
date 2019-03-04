@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Manejo Bootstrap</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+    <header class="container" style="background-color: gray">
+        <h1>Este es el título</h1>
+    </header>
+    <section>
+            <!-- /* lg colapsa cuando es menor a 1200 pixeles*/-->
+           <!--  /* si se quiere crer 6 columnas se debe usar el numero col-lg-2 porque 2 por 6 =12*/-->
+        <div class="row"> 
+            <!-- /* como se desean 3 columnas se usa el 4*/-->
+            <div class="col-lg-4" style="background-color:yellow">Columna 1</div>
+            <div class="col-lg-4" style="background-color:blue">Columna 2</div>
+            <div class="col-lg-4" style="background-color:green">Columna 3</div>
+        </div>
+    </section>
+    <section>
+        <!-- /* md colapsa cuando es menor a 992 pixeles */ -->
+            <div class="row">
+                <div class="col-md-4" style="background-color:yellow">Columna 1</div>
+                <div class="col-md-4" style="background-color:blue">Columna 2</div>
+                <div class="col-md-4" style="background-color:green">Columna 3</div>
+            </div>
+        </section>
+    <section>
+        <!-- /* sm colapsa cuando es menor a 768 pixeles*/-->
+            <div class="row">
+                <div class="col-sm-4" style="background-color:yellow">Columna 1</div>
+                <div class="col-sm-4" style="background-color:blue">Columna 2</div>
+                <div class="col-sm-4" style="background-color:green">Columna 3</div>
+            </div>
+        </section>     
+    <section>
+        <!-- /* las columnas no colapsan*/-->
+            <div class="row">
+                <div class="col-xs-4" style="background-color:yellow">Columna 1</div>
+                <div class="col-xs-4" style="background-color:blue">Columna 2</div>
+                <div class="col-xs-4" style="background-color:green">Columna 3</div>
+            </div>
+        </section>              
+</body>
+</html>

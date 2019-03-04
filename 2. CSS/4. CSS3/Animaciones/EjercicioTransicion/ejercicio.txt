@@ -1,0 +1,9 @@
+Instrucciones
+Aplica una transición al situar el puntero sobre la figura #imagen1 del borde negro de 4 pílexes con duración de 0.5 segundos.
+Coloca la figura #imagen2 con opacidad 0.1.
+Aplica una transición al situar el puntero sobre la figura #imagen2 de la opacidad a 1 con duración un segundo.
+Aplica una transición al situar el puntero sobre la figura #imagen3 del ancho a 60% con duración 0.5 segundos.
+Buenas Prácticas
+Agrupar los css de un mismo elemento en el archivo css, es decir que las etiquetas relacionadas estén cerca.
+Los porcentajes pequeños pueden no verse bien en dispositivos móviles.
+Recuerda colocar las intrucciones para los diferentes navegadores.

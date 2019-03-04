@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Controles en HTML5</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <legend>Datos Personales</legend>
+        <p>En el siguiente fomurlario debes diligenciar todos los campos</p>
+        <p>Todos los campos deben estar completos</p>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" id="Nombre">
+        <label for="Apellido">Apellido:</label>
+        <input type="text" id="Apellido">
+        <label for="FechaNacimiento">Fecha Nacimiento:</label>
+        <input type="date" id="FechaNacimiento">
+        <label for="Edad">Edad:</label>
+        <input type="number" id="Edad">
+        <label for="Genero">Genero:</label>
+        <b>Masculino</b><input type="radio" name="Genero:Masculino">
+        <b>Femenino</b><input type="radio" name="Genero:Femenino">
+        <label for="Ocupación">Ocupación</label>
+        <select>
+          <option>Seleccione una opción</option>
+          <option>Estudiante</option>
+          <option>Trabajador</option>
+          <option>Otra</option>
+        </select>
+        <label for="ColorFavorito">Color Favorito</label>
+        <input type="color" id="ColorFavorito">
+        <label for="Comentarios">Comentarios:</label>
+        <textarea name="name" rows="8" cols="80"></textarea>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpiar Campos">
+      </fieldset>
+    </form>
+  </body>
+</html>

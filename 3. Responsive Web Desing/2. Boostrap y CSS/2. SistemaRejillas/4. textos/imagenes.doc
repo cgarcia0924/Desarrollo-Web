@@ -1,0 +1,4 @@
+
+class="img-rounded" redondea las imganes a 16 px
+class="img-circle" redondea las imganes radio 50%
+class="img-thumbnail" pone marco al rededor de la imagen

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<factura id="" fecha="">
+    <cliente>
+        <nombre>Carlos</nombre>
+        <apellidos>García</apellidos>
+        <telefono>3162543578</telefono>
+    </cliente>
+    <articulos>
+        <articulo id="1">
+            <cantidad>2</cantidad>
+            <descripción>Pantalon Gris</descripción>
+            <precio-unitario>100</precio-unitario>
+            <precio-final>200</precio-final>
+        </articulo>
+        <articulo id="2">
+            <cantidad>1</cantidad>
+            <descripción>Pantalon Azul</descripción>
+            <precio-unitario>50</precio-unitario>
+            <precio-final>50</precio-final>
+        </articulo>        
+    </articulos>
+    <precio-total>250</precio-total>
+</factura>

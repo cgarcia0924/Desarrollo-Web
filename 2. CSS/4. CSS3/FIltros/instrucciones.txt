@@ -1,0 +1,8 @@
+Instrucciones
+Aplica un filtro de escala de grises al 100% a la primera imagen.
+Aplica un filtro de desenfoque a 10px a la segunda imagen.
+Aplica un filtro de inversión de colores al 100% a la tercera imagen.
+Aplica un filtro de sepia al 90% a la cuarta imagen.
+Buenas Prácticas
+Agrupa los css de un mismo elemento en el archivo css, es decir que las etiquetas relacionadas estén cerca.
+Toma en cuenta que ésta característica no funciona en todos los navegadores.

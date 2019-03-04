@@ -1,0 +1,48 @@
+
+Conclusión del curso
+
+¡Felicitaciones!
+
+Has finalizado el Curso: CSS y Diseño Web Responsive
+
+
+En la actualidad los usuarios de la World Wide Web prefieren páginas con un diseño llamativo y 
+agradable en lugar de un sitio web mal diagramado, con una paleta de colores disfuncional y 
+poca usabilidad, como ocurría con la web 1.0. Pero eso ya es historia. Hoy en día, con la web 2.0 
+y el rápido desarrollo de tecnologías y navegadores, podemos disfrutar de sitios web con diseños 
+muy profesionales y altamente impactantes. Gracias a los conceptos presentados y los ejercicios 
+aquí trabajados, ahora estás en capacidad de:
+
+
+Identificar el funcionamiento del flujo de cajas CSS en la estructura HTML.
+Analizamos el funcionamiento del modelo de caja de CSS y su posibilidad de especificar cuál
+ estilo tiene prioridad jerárquica, cuál debe aplicarse sobre los demás. Para renderizarse 
+ en el navegador, nuestra página web tiene varias fuentes de estilos que se van cargando una 
+ después de la otra, de ahí viene el término cascada.
+
+Aplicar el estándar CSS.
+Estudiamos CSS que es el lenguaje utilizado para organizar la presentación y el aspecto de 
+una página Web. Es un conjunto de reglas que determina cómo lucen los elementos que conforman
+ nuestro documento HTML. CSS funciona de una manera particular, los estilos se definen en una 
+ hoja independiente que luego se vincula desde el HTML, también se puede usar incrustado en el 
+ mismo documento, pero esta no es una buena práctica y se recomienda siempre implementarlo como 
+ un documento externo.
+
+Aplicar propiedades de forma a la estructura.
+Para poder renderizar un archivo HTML, el navegador utiliza las tipografías (tipos de letra) 
+existentes en el sistema operativo del usuario (cliente), es por ello que en este curso estudiamos 
+la importancia de este tema, así como también aplicamos diferentes	propiedades que afectan la 
+visualización y organización de la forma de los documentos HTML.
+
+Utilizar propiedades de transformación y efectos especiales.
+Utilizamos las transformaciones que son efectos CSS3 que permiten modificar la forma, 
+tamaño y posición de un elemento. Para realizar una transformación se debe añadir el atributo
+ transform en el CSS correspondiente al elemento que se desea transformar, seguido del método 
+ de transformación que usaremos. En este curso estudiamos rotate, scale, perspective, translate y skew.
+
+Aplicar propiedades de animación de la estructura.
+Las transiciones que son representadas con la propiedad transition son formas de animar 
+los cambios de propiedades que se realizan a los elementos del DOM. Cuando realizamos un 
+cambio de background, por ejemplo de blanco a rojo, este cambio sucede instantáneamente. 
+Lo que propone la propiedad transition es generar un pequeño lapso de tiempo entre el cambio 
+de estas propiedades.

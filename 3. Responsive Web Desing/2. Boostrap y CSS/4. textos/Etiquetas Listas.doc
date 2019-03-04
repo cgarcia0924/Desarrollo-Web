@@ -1,0 +1,25 @@
+
+<ul class="list-unstyled"> 
+
+<ul class="list-inline"> </ul>  tira las listas hacia la derecha
+
+<dl class="dl-horizontal"> se utiliza para que muestre el significado al frente de la palabra
+    <dt> palabra</dt>
+    <dd> definición mostrada al frente </dd>
+</dl> 
+list-online
+
+En la lección que acabas de ver, aprendiste qué es una lista, sus tipos y cómo Bootstrap te ayuda a organizarlas. 
+
+A continuación, deberás leer el enunciado y elegir a cuál de las opciones de código que se te presentan es el correcto. 
+
+Enunciado: Necesitas presentar una lista desordenada que contenga: celular, llaves, lápiz y cuaderno y que:
+
+1. No tenga viñetas y ni estilo definido.
+2. No esté listada de manera vertical sino horizontal.
+Para eso, ¿qué código utilizarías?
+Correcto
+¡Excelente elección! Utilizando dos tipos de código diferente podrás lograr los
+ dos propósitos que tienes: que la lista no tenga viñetas, ni estilo definido y 
+ que aparezca de manera horizontal.
+<ul class=”list-unstyled list-inline”>
