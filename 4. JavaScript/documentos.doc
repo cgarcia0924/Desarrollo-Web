@@ -1,0 +1,119 @@
+Operadores aritmeticos
+
+suma
+resta
+multiplicacion
+división /
+
+
+Operadores de modulos
+Modulo (%)
+Incremento (++)
+Decremento (--)
+Unario (-X)
+
+Operador de negación NOT
+Operador AND &&
+Operador OR (||)
+Operador NOT !
+
+
+
+OPERACIONES DE COMPARACION
+
+IAGUAL A ==
+IGAUL VALOR E IGUAL TIPO ===
+DIFERENTE !=
+DIFERENTE VALOR Y DIFERENTE TIPO !==
+MAYOR QUE >
+MENOR QUE <
+MAYOR O IGUAL QUE >=
+MENOR O IGUAL QUE <=
+
+
+ESTRUCTURAS SECUENCIALES
+
+Secuenciales 
+Asignacion
+entrada
+salida
+
+1. inicio
+2. proceso
+3. proceso
+4. Mostrar al usuario
+5. fin
+
+
+
+----------
+Condicionales
+Simples
+DObles
+Multiples
+
+Cíclicas
+Para
+Mientras que
+Repita hasta
+
+
+switch(expresion){
+    case n1;
+    precedimiento1();
+    break;
+    case n2;
+    precedimiento2();
+    break;
+    ....
+    default:
+    precedimientoX();
+    break
+
+}
+....
+Ciclos 
+Indeterminados
+do-while
+while
+
+Determinados
+For
+for(sentencia1, sentencia2, sentencia3){
+    procedimiento();
+}
+For-inicio
+For(var_temp in objeto1){
+    procedimientoRepetitivo();
+}
+
+Sentencias
+break: sirve para interrrumpir un ciclo sin necesidad de que se recorra completo
+Continue: Permite saltar a la siguiente iteracion sin ejecutar el codigo que esté abajo de esta sentencia1
+
+
+
+Funciones nombreFuncion(){
+    lo que se ejecuta cuando se invoca la Funciones
+}
+
+como se invoca?
+
+NombreFuncion(parametro1, parametro2, parametro3, parametroN){
+
+}
+
+
+Tipos de funciones:
+
+Funcionaes Callbacks, clousures, anónimas y autoejecutables
+
+Funciones Anónimas:
+Funciones asíncronas, sin orden o prioridad pues no controlamos los tiempos de ejecución
+JavaScript permite otras funciones como parámetros
+
+funciones Set, time, out
+
+Contexto:
+
+EL contexto se representa con a palabra this
